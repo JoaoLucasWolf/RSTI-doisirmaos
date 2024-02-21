@@ -91,6 +91,68 @@ funcaoNome("Ana");
 funcaoNome("Gabriel");
 */
 
+//FUNÇÕES 2
+/*
+const a = 1;
+
+function imprimevariavel(){
+    const b = 2;
+    console.log('variavel a', a);
+    console.log('variavel b', b);
+    }
+
+    imprimevariavel()
+
+    console.log('variavel a', a);
+    console.log('variavel b', b);
+*/
+
+/*
+function calculaArea(altura, largura){
+    const area= altura * largura;
+        return area;
+        } 
+
+const areaCalculada= calculaArea(2,3);
+    console.log(calculaArea(2,3));
+*/
+
+/*
+function calculoSoma(soma1, soma2){
+    const soma = soma1 + soma2;
+        return soma;
+        }
+
+const somaCalculada= calculoSoma(5, 9);
+        console.log(calculoSoma(5, 9));
+        */
+
+
+/*        
+function recebeArray(arrayDeNumeros = []){
+    return [(arrayDeNumeros.length)/2, (arrayDeNumeros[0])/2];
+    }
+
+console.log(recebeArray([1,2,3,4,5,6,7,8,9]));
+*/
+
+const nomePessoa = function funcaoNome(nome){
+    
+   return nome 
+    }
+    
+console.log(nomePessoa("nome")); // <--função sendo chamada
+console.log(nomePessoa("joao"));
+console.log(nomePessoa("Ana"));
+console.log(nomePessoa("Gabriel"));
+
+
+
+  
+
+
+
+
 
 
 
