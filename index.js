@@ -136,27 +136,146 @@ function recebeArray(arrayDeNumeros = []){
 console.log(recebeArray([1,2,3,4,5,6,7,8,9]));
 */
 
+/*
 const nomePessoa = function funcaoNome(nome){
     
-   return nome 
+    return nome 
     }
-    
 console.log(nomePessoa("nome")); // <--função sendo chamada
 console.log(nomePessoa("joao"));
 console.log(nomePessoa("Ana"));
 console.log(nomePessoa("Gabriel"));
+*/
+
+/*
+const professor ={
+    nome: 'vitor',
+    idade: 27,
+    tarefas:['Dar aula', 'Responder dúvidas'],
+    contarPiada: function(){
+        console.log('É pa vê ou pa comê?')
+    }
+}
+   console.log(professor.idade)
+   */
+
+   /*
+const professor = {
+    nome: "vitor",
+    idade: 27,
+    email: 'vitor@gmail.com'
+}
+    console.log(professor ['email']) 
+    */
+
+/*
+    const professor ={
+        nome: 'vitor',
+        idade: 27,
+        tarefas:['Dar aula', 'Responder dúvidas'],
+        contarPiada: function(){
+            console.log('É pa vê ou pa comê?')
+        }
+    }
+        console.log(professor.nome);
+        console.log(professor.idade);
+            professor.nome = "João";""
+            console.log(professor.nome);
+            */
+
+/*
+const filme = {
+    nome: "hohanna" , 
+    elenco: "joel, " + "junior, " + "cleiton " ,
+    direcao: "ademar, " + "claudia " ,
+    lancamento: '27/12/2025' ,
+    viuFilme: true 
+}
+        console.log(filme.nome);
+        console.log(filme.direcao);
+        console.log(filme.elenco);
+        console.log(filme.lancamento);
+        console.log(filme.viuFilme);
+        */
+
+/* var pessoa = {
+    nome: "João Wolf",
+    idade: 20,
+    generoMusical: "funk",
+}
+    
+        console.log("O nome da pessoa é", pessoa.nome, ", ele tem", pessoa.idade, "anos e gosta muito de", pessoa.generoMusical, "." )
+     */
+
+
+/* const donoDoPet ={
+    nome: "vitor Hugo",
+    pet:{
+        nomeDoPet:"wanda",
+        raca: "vira-lata", 
+        idade: 1 
+        }
+    }
+        console.log(donoDoPet.pet.nomeDoPet); */
+
+
+/*
+const curso = {
+    nome: "Noturno Frontend",
+    linguagens: ["JS", "CSS", "HTML"]
+}
+        console.log(curso.linguagens[0]);
+        */
+
+/* const professores =[
+    {nome: "Andrei", modulo: 1},
+    {nome: "Vitor", modulo: 2},
+    {nome: "Mina", modulo: 3},
+]
+        console.log(professores[1].nome) */
+
+/* const curso ={
+    nome: "frontend",
+    linguagens: ["JS", "CSS", "HTML"]
+}
+
+        curso.numeroEstudantes=50
+        console.log(curso.numeroEstudantes)
+ */
+
+/* var listaFilme =[
+    {nome:"Joel/nerd", modulo: 1},
+    {nome:"junior/professor", modulo: 2},
+    {nome:"Cleiton/vendedor", modulo: 2},
+
+]
+
+        console.log(listaFilme[0].nome);
+        console.log(listaFilme[1].nome);
+        console.log(listaFilme[2].nome);
+        listaFilme[0].nome="Xuxa";
+        console.log(listaFilme[0].nome); */
+
+
+/* const usuario = {
+    nome: 'prof',
+    idade: 25,
+    email: 'prof@senacrs.com.br',
+    cidade:'São Paulo'
+    }
+     
+const novoUsuario = {
+    ...usuario,
+    nome: 'joão',
+    idade: 28
+    } */
+   
+/* const listaDeNomes = ["Mika","Paula", "Vitor"]
+
+const copiaListaDeNomes =[...listaDeNomes]
+
+    console.log(copiaListaDeNomes) */
 
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+    
