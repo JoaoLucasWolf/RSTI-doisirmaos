@@ -276,6 +276,22 @@ const copiaListaDeNomes =[...listaDeNomes]
 
     console.log(copiaListaDeNomes) */
 
+    const comidas = {
+        comidas: ["LASANHA", "CHURRASCO", "XIS"]
+    }
+            console.log(curso.linguagens[0]);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     
