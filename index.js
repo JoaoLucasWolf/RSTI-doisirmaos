@@ -276,20 +276,101 @@ const copiaListaDeNomes =[...listaDeNomes]
 
     console.log(copiaListaDeNomes) */
 
-    const comidas = {
-        comidas: ["LASANHA", "CHURRASCO", "XIS"]
+/*  
+    var pessoa = {
+        nome: "João Wolf",
+        idade: 20,
     }
-            console.log(curso.linguagens[0]);
+
+
+function exercicio4(objetoPessoa, arraycomidas, objetoMelhorAmigo){
+    var novoObjeto = {...objetoPessoa, comidasPreferidas: arraycomidas, melhorAmigo: objetoMelhorAmigo};
+
+    console.log(`O nome da pessaoa é ${novoObjeto.nome} e suas comidas preferidas são ${novoObjeto.comidasPreferidas[0]}, ${novoObjeto.comidasPreferidas[1]}, ${novoObjeto.comidasPreferidas[2]}.O nome do seu amigo se chama ${novoObjeto.melhorAmigo.nome} e tem ${novoObjeto.melhorAmigo.idade} anos. `);
+}
+exercicio4(pessoa, ["Xis", "Churrasco", "Lasanha"], {nome: "Cássio", idade:20});*/
 
 
 
+/* let condicao1 = true;
+    if (condicao1){
+        //como o valor da condição é true, o código desse bloco é executado 
+        console.log('Entrei no if 1!');
+        }
+
+let condicao2 = false;
+
+    if (condicao2){
+        //como o valor da condição é falsa, o codigo desse bloco NÃO é executado
+        console.log('entrei no if 2!');
+        } */
 
 
 
+/* function comparaDoisNumeros(num1, num2){
+    if(num1 === num2){
+        console.log("sucesso");
+    } 
+}
+comparaDoisNumeros(prompt("digite num 1"), prompt("digite num 2"));
+ */
+
+
+/* function podeDirigir(nome, idade){
+    if(idade >= 18){
+        console.log(nome ,', você pode dirigir');
+    }
+} 
+    podeDirigir(prompt("digite seu nome"), prompt("digite sua idade")); */
 
 
 
+/* let condicao = false
 
+if (condicao){
+    console.log('entrei no if!')
+} else {
+    console.log("entrei no else")
+}
+ */
+
+
+/* function comparaDoisNumeros(num1, num2){
+    if(num1 === num2){
+        console.log("Números iguais");
+    } else {
+        console.log("Números Diferentes")
+    } 
+}
+comparaDoisNumeros(prompt("digite num 1"), prompt("digite num 2")); */
+ 
+
+/* let condicao1 = true 
+let condicao2 = false
+
+if (condicao1){
+    console.log('entrei no if 1!')
+} else {
+
+    if (condicao2){ 
+        console.log("entrwi no if 2!")
+    }
+}
+ */
+
+function numerosIguais(num1, num2){
+    if(num1 > num2){
+        console.log("num1 é maior que num2 ");
+
+    }   else if (num1 < num2){
+            console.log("num1 é menor que num2 ");
+
+        }   else (num1 === num2){
+            console.log("num1 é igual que num2 ");
+        }
+    
+}
+        numerosIguais(prompt("digite num 1"), prompt("digite num 2")); 
 
 
 
