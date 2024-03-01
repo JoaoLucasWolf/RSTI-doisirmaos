@@ -353,12 +353,12 @@ if (condicao1){
 } else {
 
     if (condicao2){ 
-        console.log("entrwi no if 2!")
+        console.log("entri no if 2!")
     }
 }
  */
 
-function numerosIguais(num1, num2){
+/* function numerosIguais(num1, num2){
     if(num1 > num2){
         console.log("num1 é maior que num2 ");
 
@@ -370,7 +370,135 @@ function numerosIguais(num1, num2){
         }
     
 }
-        numerosIguais(prompt("digite num 1"), prompt("digite num 2")); 
+        numerosIguais(prompt("digite num 1"), prompt("digite num 2"));  */
+        
+/* let paisDeOrigem
+if (paisDeOrigem === 'brasil'){
+    console.log("brasileiro");
+}   else if (paisDeOrigem === 'EUA'){
+            console.log("Norte Americano");
+}   else if (paisDeOrigem === 'Inglaterra'){
+            console.log('inglês');
+}   else if (paisDeOrigem === 'França'){
+            console.log('francês');
+}   else if(paisDeOrigem === 'Itália'){
+            console.log('italiano');
+}   else if (paisDeOrigem === 'canadá'){
+            console.log('canadense');
+}   else {
+        console.log ('nacionalidade não encontrada');
+}
+ */
+
+
+/* let paisDeOrigem
+switch (paisDeOrigem) {
+    case 'brasil':
+        console.log('brasileiro')
+        break;
+    case 'EUA':
+        console.log('Norte americano')
+        break;
+    case 'Inglaterra':
+        console.log('Inglês')
+        break
+    default:
+        console.log('nacionalidade não encontrada')
+        break
+}
+ */
+
+
+/* function pokemonSelecionar(pokemon){
+switch (pokemon) {
+    case 'Bulbasauro':
+        console.log('Bulbasauro \nplanta e veneno')
+        break;
+    case 'Charmander':
+        console.log('Charmander \nFogo')
+        break;
+    case 'Squirtle':
+        console.log('Squirtle \n Água')
+        break
+    default:
+        console.log('Nenhum pokémon foi encontrado')
+        break
+    }
+}
+    console.log(pokemonSelecionar(prompt('escolha um POKÉMON \n Bulbasauro \n Charmander \n Squirtle ' )));
+ */
+
+
+
+/* let condicao1 = true
+let condicao2 = false 
+
+if (condicao1 && condicao2){
+    //Entra aqui se ambas forem true
+}
+
+if (!condicao1){
+    //Entra aqui se condicao1 for false 
+}
+ */
+
+/* var nome = prompt('Qual seu nome')
+var idade = prompt('qual sua idade')
+var ensinoMedio = prompt('Você tem Ensino médio completo')
+var faculdade = prompt('voce esta cursando alguma outra faculdade')
+
+
+    if ((idade >= 18) && (ensinoMedio === 'sim' && 'SIM' && 'Sim') && (faculdade === 'nao' && 'NAO' && 'Não' && 'Nao' )){
+        console.log('Você pode entrar na nossa faculdade')
+    } else {
+        console.log('voce nao tem algum requisito para ingressar na nossa faculdade ')
+    }
+ 
+        console.log('Nome: ', nome,'\nIdade: ', idade,' anos', '\nJa terminou Ensino Médio: ', ensinoMedio,'\nEsta fazendo alguma outra facildade: ' ,faculdade)
+ */
+
+
+/*Calculadora Simples; Crie uma função calculadora que recebe dois
+números e uma operação (soma, subtração, multiplicação ou divisão)
+como argumentos e retorna o resultado da operação. */
+ 
+function calculadora(num1, num2 ){
+    console.log(num1 + num2);
+    console.log(num1 - num2);
+    console.log(num1 / num2);
+    console.log(num1 * num2);
+}
+    console.log(calculadora(prompt('escreva num1 '), prompt(' escreva num2')));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
