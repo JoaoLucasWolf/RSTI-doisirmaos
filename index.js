@@ -454,27 +454,60 @@ var faculdade = prompt('voce esta cursando alguma outra faculdade')
         console.log('voce nao tem algum requisito para ingressar na nossa faculdade ')
     }
  
-        console.log('Nome: ', nome,'\nIdade: ', idade,' anos', '\nJa terminou Ensino Médio: ', ensinoMedio,'\nEsta fazendo alguma outra facildade: ' ,faculdade)
+        console.log('Nome: ', nome,'\nIdade: ', idade,' anos', '\nJa terminou Ensino Médio: ', ensinoMedio,'\nEsta fazendo alguma outra facildade: ' ,faculdade) */
+
+/* function podeEntrarNaFaculdade(ensinoMedio,idade,faculdade){
+    if(ensinoMedio === "sim" || ensinoMedio === sim){ensinoMedio = true}else{ensinoMedio = false}
+
+    if(faculdade === "sim" || faculdade === "nao"){faculdade = true}else{faculdade = false}
+
+    if (idade >= 18 && ensinoMedio && !faculdade){
+        return "você pode entrar na faculdade"}
+        else{return "você não pode entrar na faculdade"}
+}
+console.log(podeEntrarNaFaculdade(prompt ("você concluiu o ensino medio?"), number(prompt("qual sua idade?")), prompt("você ja estuda em uma faculdade?")))
  */
 
 
 /*Calculadora Simples; Crie uma função calculadora que recebe dois
 números e uma operação (soma, subtração, multiplicação ou divisão)
 como argumentos e retorna o resultado da operação. */
+
+
  
-function calculadora(num1, num2 ){
+/* function calculadora(num1, num2 ){
     console.log(num1 + num2);
     console.log(num1 - num2);
     console.log(num1 / num2);
     console.log(num1 * num2);
 }
-    console.log(calculadora(prompt('escreva num1 '), prompt(' escreva num2')));
+    console.log(calculadora(prompt('escreva num1 '), prompt(' escreva num2'))); */
 
 
 
+//explicação return
+/* function calculaArea(base, altura){
+    return base * altura;
+}
 
+function calculaAreaTotal(valores=[]){
+    var resultado = valores[0] + valores[1] + valores[2] + valores[3];
+    return resultado;
+}
+function calculaValores(valores = []) {
+    valores = [0] = number (valores[0])
+    valores = [1] = number (valores[1])
 
+    var areaCalculada = calculaArea(valores[0], valores[1])
+}
+    var areatotal = calculaAreaTotal([areaCalculada,areaCalculada,areaCalculada,areaCalculada])
+    
+    return areatotal;
 
+function pegaParametros() {
+    return calculaValores((prompt("digite a base"), prompt("digite a altura")));
+}
+ */
 
 
 
