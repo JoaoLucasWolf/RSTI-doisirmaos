@@ -510,6 +510,22 @@ function pegaParametros() {
  */
 
 
+/* 
+Escolha um recipiente limpo: Use um copo, garrafa ou outro recipiente adequado para beber água.
+
+Lave as mãos: Antes de tocar no recipiente ou na água, certifique-se de que suas mãos estejam limpas.
+
+Encha o recipiente com água potável: Utilize água potável e, se possível, filtrada. Certifique-se de que o recipiente esteja limpo.
+
+Leve o recipiente à boca: Incline o recipiente para a sua boca, mantendo uma postura confortável.
+
+Beba em pequenos goles: Evite beber muita água de uma vez só; é melhor tomar em pequenos goles para permitir que seu corpo absorva a água gradualmente.
+
+Respire normalmente: Mantenha uma respiração regular enquanto bebe para evitar engasgos.
+
+Coloque o recipiente de volta: Após beber, coloque o recipiente de volta em uma superfície segura.
+
+ */
 
 
 
