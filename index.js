@@ -527,27 +527,105 @@ Coloque o recipiente de volta: Após beber, coloque o recipiente de volta em uma
 
  */
 
+/* let i = 0
+
+while (i < 10) {
+    console.log(i)
+
+    i++
+}
+ */
+
+
+/* let estomago = 0;
+
+while (estomago < 100) {
+    console.log("Quero comer mais coxinhas");
+    estomago = estomago + 10;
+}
+ */
+
+/* let i = prompt('insira um numero');
+let soma =0
+
+    while ( i ) {
+        if(i < 0 || i > 0 ){
+        console.log(prompt('insira outro numero'))
+        } else {
+            console.log('Você escolheu o num 0, agora ira somar todos os numeros ')
+        }
+            
+    }
+      console.log() */
+
+
+/* function somarNumeros(){
+    let soma = 0;
+    let numero = 1;
+    while (numero !== 0) {
+        numero= Number(prompt('Digite um número (ou 0 para sair): '))
+        soma += numero;
+    }
+    console.log(`A soma dos numeros digitados é: ${soma}`);
+}
+    somarNumeros() */
 
 
 
+/* for(let i = 0; i < 10;  i++){
+    console.log(i)
+}
+ */
 
 
 
+/* const numeros = [14, 67, 89, 15, 23]
+
+for(let i=0;    i<5;    i++){
+    const elemento = numeros[i]
+    console.log(elemento)
+}
+ */
 
 
+//meu
+/* const array = [11, 15, 18, 14, 12, 13]
 
+for(let i = 0;  i< array.length;    i++){
+    const elemento= array[i]
+    console.log(elemento)
+    console.log(elemento(array.length))
+}
+  */
 
+/* function valorMaior(array){
+    var numeroMaior= array [0]
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        if(element > numeroMaior){
+            numeroMaior = element
+        }
+        
+    }
+    return numeroMaior;
+}
+var meuArray=[11, 15, 18, 14, 12, 13]
 
+console.log(valorMaior(meuArray)) */
 
-
-
-
-
-
-
-
-
-
+/* 
+function somarNumerosComArray(){
+    var numeros = [];
+    var numero = 1;
+    while (numero !== 0) {
+        numero = Number(prompt('Digite um numero ou 0 para sair'));
+        numeros.push(numero);
+    }
+    var soma = numeros.reduce((acumulador, numero) => acumulador + numero, 0);
+    return (soma)
+}
+    console.log(somarNumerosComArray());
+ */
 
 
 
