@@ -628,6 +628,14 @@ function somarNumerosComArray(){
  */
 
 
+    //TEMA AULA 11-03 
+    //https://www.tiktok.com/@extreme.hard.prog?_t=8khcanDwros&_r=1
+
+    //"andrey, gabriel, maxuel, joao, ramon"
+    //"grupo uid: "z0o4r""
+
+
+
 
 
     
